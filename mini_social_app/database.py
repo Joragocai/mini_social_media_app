@@ -4,7 +4,6 @@ from pathlib import Path
 
 
 class StorageManager:
-    """SQLite data access layer for users, posts, likes, and comments."""
 
     def __init__(self, db_path=None):
         self.db_path = Path(db_path) if db_path else Path(__file__).with_name("social_app.db")

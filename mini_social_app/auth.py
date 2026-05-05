@@ -9,7 +9,6 @@ USERNAME_PATTERN = re.compile(r"^[A-Za-z0-9_]{3,20}$")
 
 
 class AuthManager:
-    """Application logic for registration, login, logout, and profile edits."""
 
     def __init__(self, storage):
         self.storage = storage

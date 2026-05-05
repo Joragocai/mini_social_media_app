@@ -2,7 +2,6 @@ from models import Comment, Post
 
 
 class PostManager:
-    """Application logic for posts, likes, comments, and feed retrieval."""
 
     def __init__(self, storage):
         self.storage = storage
